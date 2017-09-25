@@ -4,7 +4,9 @@
   "description": "",
   "main": "aritgeo.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha ./dist/test/arit_test.js",
+    "build": "babel ./test --watch -d ./dist"
+
   },
   "author": "",
   "license": "ISC",
