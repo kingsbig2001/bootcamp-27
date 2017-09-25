@@ -1,4 +1,4 @@
-const aritGeo = (arr) =>{
+ const aritGeo = (arr) =>{
   if(!arr){
     return -1;
   }
@@ -29,9 +29,9 @@ const aritGeo = (arr) =>{
        } // {a[n]=a[1]+(n-1)d},
     else{
      return -1;
-   }
+     }
     }
   
+  }
 }
-}
-module.exports = aritGeo;
+ export default aritGeo;
