@@ -1,4 +1,4 @@
-function aritGeo(arr){
+const aritGeo = (arr) =>{
   if(!arr){
     return -1;
   }
