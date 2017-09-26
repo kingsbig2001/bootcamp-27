@@ -62,18 +62,20 @@ class Engineer extends Person {
   }
 }
 
-let ibeh = new Person('ibeh', 'hired');
-console.log(ibeh);
+// let ibeh = new Person('ibeh', 'hired');
+// console.log(ibeh);
 
-ibeh.hired();
-ibeh.status = 'unemployed';
-console.log(ibeh.hired());
-let ebube = new Engineer('Ebube', 'hired', 'Electrical', 99);
-ebube.hired();
-ebube.working();
-console.log(ebube);
-ebube.accountBal;
-ebube.accountBal = 9000;
-ebube.accountBal;
-ebube.accountBal = 'omo';
-ebube.accountBal;
+// ibeh.hired();
+// ibeh.status = 'unemployed';
+// console.log(ibeh.hired());
+// let ebube = new Engineer('Ebube', 'hired', 'Electrical', 99);
+// ebube.hired();
+// ebube.working();
+// console.log(ebube);
+// ebube.accountBal;
+// ebube.accountBal = 9000;
+// ebube.accountBal;
+// ebube.accountBal = 'omo';
+// ebube.accountBal;
+
+
