@@ -1,6 +1,6 @@
 'use strict';
 
-class Person {
+module.exports = class Person {
   constructor(name, status) {
     this._name = name;
     this._status = status;
@@ -30,37 +30,37 @@ class Person {
   }
 }
 //child class 'Engineer' Inheriting from Parent class 'Person'
-class Engineer extends Person { 
-  constructor(name,status, field, accountBal) {
-    super(name, status);
-    this._field = field;
-    this._accountBal = accountBal;
-  }
+// module.exports = class Engineer extends Person { 
+//   constructor(name,status, field, accountBal) {
+//     super(name, status);
+//     this._field = field;
+//     this._accountBal = accountBal;
+//   }
   
-  get field() {
-    return this._field;
-  }
+//   get field() {
+//     return this._field;
+//   }
   
-  set field(newField) {
-    this._field = newField;
-  }
-  get accountBal(){
-    return this._accountBal;
-  }
+//   set field(newField) {
+//     this._field = newField;
+//   }
+//   get accountBal(){
+//     return this._accountBal;
+//   }
   
-  set accountBal(newBal){
-    let previousBal = this._accountBal;
-    if(newBal && typeof newBal === 'number'){
-      this._accountBal = newBal; 
-    }
-    else{
-      this._accountBal = previousBal;
-    }
-  }
-  working() {
-    console.log(this._name + ' working in ' + this._field + ' dept.');
-  }
-}
+//   set accountBal(newBal){
+//     let previousBal = this._accountBal;
+//     if(newBal && typeof newBal === 'number'){
+//       this._accountBal = newBal; 
+//     }
+//     else{
+//       this._accountBal = previousBal;
+//     }
+//   }
+//   working() {
+//     console.log(this._name + ' working in ' + this._field + ' dept.');
+//   }
+//}
 
 // let ibeh = new Person('ibeh', 'hired');
 // console.log(ibeh);
